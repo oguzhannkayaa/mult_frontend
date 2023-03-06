@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body {
+    overflow: hidden;
+  }
+  .soft{
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  .loginSection {
+    width: 900px;
+    height: 600px;
+    margin: 30px auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .forms {
+
+  }
+  
+  .login {
+    width: 500px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 1px;
+    margin: 100px auto;
+  }
+  
+  .loginForm h1 {
+    text-align: start;
+    font-weight: bolder;
+    color: #188dc1;
+  }
+  
+  .loginForm label {
+    display: block;
+    color: #188dc1;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: auto;
+    padding: 4px;
+    margin-top: 4px;
+  }
+  
+  .loginForm .loginInput {
+    width: 100%;
+    padding: 12px;
+    margin: 12px;
+    outline: none;
+    border: 1px solid #188dc1;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .subcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .subcontainer a {
+    color: #188dc1;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #188dc1;
+    font-size: 14px;
+    font-weight: normal !important;
+    width:fit-content;
+    gap:.5rem;
+  }
+  
+  .remember .remembers{
+    width:fit-content;
+    margin-left: -5px;
+  }
+  
+  .remember span{
+    font-size: 14px;
+    
+  }
+  
+  .forgotpsd a{
+    font-size: 14px;
+    cursor: pointer;
+    
+  }
+  
+
+  
+
+
+  
+  .offscreen {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+  }
+  
+  .invalid {
+    color: red;
+    margin-left: 0.25rem;
+  }
+  
+  .errmsg {
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form {
+      width: 20rem;
+    }
+  }

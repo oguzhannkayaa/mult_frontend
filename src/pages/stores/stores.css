@@ -1,0 +1,17 @@
+.trashh{
+    cursor: pointer;
+
+}
+button{
+    /* background-color: white !important; */
+    /* margin-top: -10px !important; */
+    /* margin-right: -10px !important; */
+
+}
+.ui.dimmer{
+    background-color: rgba(0, 0, 0, 0) !important;
+    /* box-shadow: rgb(253, 253, 253) 0px 2px 2x 0px !important; */
+}
+.ui.button {
+background-color: none !important;
+}
